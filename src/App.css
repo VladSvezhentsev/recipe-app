@@ -1,0 +1,52 @@
+.App {
+   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+body {
+   margin: 0;
+}
+
+ul {
+   list-style: none;
+}
+
+.recipes {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.recipe {
+   text-align: center;
+   background: #fff;
+   border-radius: 50px;
+   margin: 20px;
+}
+
+form {
+   min-height: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 10px;
+}
+
+input {
+   padding: 10px;
+   border: none;
+   outline: none;
+}
+
+button {
+   padding: 5px 10px;
+   background-color: hotpink;
+   margin-left: 10px;
+}
+
+img {
+   border-radius: 25%;
+}
+
+.hello {
+   display: flex;
+   justify-content: center;
+}
